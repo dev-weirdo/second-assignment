@@ -8,11 +8,17 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  margin-bottom: 80px;
 }
 .navbar ul {
   display: flex;
@@ -31,4 +37,52 @@
 .nav-icon {
   height: 24px;
   width: 24px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.influencer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inf-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inf-left h1 {
+  font-size: 52px;
+}
+
+.inf-left p {
+  text-align: justify;
+}
+
+.inf-left button {
+}
+.inf-img {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.inf-img-two {
+  position: absolute;
+}
+.btn-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+  background-color: #e02c6d;
+  color: white;
+  border-style: none;
+  border-radius: 25px;
+}
+
+.btn-align img {
+  margin-left: 10px;
+  color: white;
 }
